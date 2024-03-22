@@ -1,0 +1,224 @@
+/* home.css */
+body {
+  background-image: url('./m11.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+}
+
+.container2 {
+  text-align: center;
+  padding: 20px;
+  height: 80vh;
+  width: 100%;
+  background-color: #0a8adf;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  margin-top: 7em;
+  border-right-width: 10px; 
+  border-bottom-width: 10px;
+  border-radius: 2.5em;
+
+}
+.container2 h2{
+  color: #ffffff;
+  margin-top: 15em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container2 h2 span{
+  font-size: 60px;
+  color: #0a8adf;
+  margin-left: 1.5em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-shadow: 4px 4px 4px rgb(255, 255, 255);
+}
+.container2 p{
+  color: #ffffff;
+}
+.container6,
+#project,
+#contact {
+  padding-top: 20px;
+}
+
+h1 {
+  color: #17a2b8;
+}
+
+h2 {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+}
+
+h3 {
+  color: #fff;
+  font-size: 20px;
+}
+
+p {
+  color: #fff;
+  font-size: 20px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.container6 {
+  height: 70vh;
+  width: 90%;
+  background-color: rgb(2, 55, 102);
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  margin-top: 7em;
+  /* background-image: url("./539822.jpg"); */
+  margin-left: 9.5em;
+  display: flex;
+  border-right-width: 10px; /* Thickness of the right border */
+  border-bottom-width: 10px;
+  border-radius: 2.5em;
+  
+}
+.container6 p,
+.container6 h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+.right-box img {
+  width: 70%;
+  height: 70%;
+  float: right;
+  margin-left: 30em;
+  margin-right: 20em;
+  margin-top: 5em;
+  border-radius: 2em;
+  transition: transform 0.5s ease;
+}
+.right-box img:hover{
+  transform: scale(1.02); 
+}
+
+.container6 h3 {
+  color: rgb(255, 255, 255);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  text-shadow: 4px 4px 4px rgb(1, 89, 133);
+}
+.vision h2{
+  margin-right: 3em;
+  margin-left: .5em;
+  margin-bottom: 1em;
+  padding-top: 3em;
+  text-shadow: 4px 4px 4px rgb(1, 89, 133);
+}
+.vision h3{
+  margin-right: 4.5em;
+  margin-bottom: 1em;
+}
+.vision p{
+  margin-bottom: 1em;
+}
+#project {
+  padding-bottom: 70px;
+  height: 75vh;
+  width: 100%;
+  background-color: rgb(2, 55, 102);
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  margin-top: 7em;
+  border-right-width: 10px; /* Thickness of the right border */
+  border-bottom-width: 10px;
+  border-radius: 2.5em;
+  transition: transform 0.5s ease;
+}
+
+#project h2 {
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 3em;
+  translate: 0em 1.7em;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+}
+
+#project p {
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 2.5em;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#project .card {
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#project .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+#project .col-md-4 {
+  width: 30%;
+  margin-bottom: 30px;
+}
+
+#project .card-img-top {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+#project .card-img-top:hover{
+  transform: scale(1.02);
+}
+#contact {
+  padding-bottom: 70px;
+  background-color: rgb(2, 55, 102);
+  text-align: center;
+  height: 57vh;
+  width: 80%;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  margin-top: 7em;
+  margin-bottom: 5em;
+  border-right-width: 10px; 
+  border-bottom-width: 10px;
+  border-radius: 2.5em;
+  margin-left: 20em;
+  text-align: center;
+  padding-top: 16em;
+  padding-left: 25em;
+}
+
+#contact h1 {
+  font-size: 40px; 
+  color: #ffffff;
+   margin-bottom: 15px; 
+   translate: -8em -.5em;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#contact p a {
+  color: #ffffff;
+  text-decoration: none; 
+  font-size: 25px;
+translate: -20em;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#contact p a:hover {
+  text-decoration: none;
+}
+.left-image img {
+  width: 500px; 
+  height: 330px;
+  border-radius: 1.7em; 
+  transform: translate(-200px, -95px);
+}

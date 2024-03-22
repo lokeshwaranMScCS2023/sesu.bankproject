@@ -1,0 +1,71 @@
+/* deposit.css */
+
+.container3 {
+    width: 50%;
+    height: 60vh;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    /* border-radius: 10px; */
+    background-color: #f9f9f9;
+    background-image: url("./data.jpg");
+    margin-top: 50px;
+    border-right-width: 10px; /* Thickness of the right border */
+    border-bottom-width: 10px;
+    border-radius: 2.5em;
+  }
+  
+  .container3 h1{
+    font-size: 40px;
+    color: #ffffff;
+    text-shadow: 4px 4px 4px rgb(8, 110, 220);
+  }
+  .container3 h2{
+    font-size: 35px;
+    color: #fff;
+    text-shadow: 4px 4px 4px rgb(8, 110, 220);
+    padding-top: .5em;
+  }
+  .form-control {
+    width: 35%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+
+  }
+  
+  .btn {
+    width: 16%;
+    padding: 10px;
+    background-color: rgb(8, 110, 220);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .alert {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+  }
+  
+  .alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+  }
+  
